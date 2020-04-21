@@ -7,7 +7,7 @@ CORS(app)
 
 @app.route("/test")
 def test():
-    return "It's working"    
+    return "Hello!! Yoy are connected!\n"    
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)
